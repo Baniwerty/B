@@ -14,7 +14,7 @@ function setup(){
     surface2=createSprite(345,570,200,50);
     surface3=createSprite(570,570,200,50);
     surface4=createSprite(795,570,200,50);
-     surface1.shapeColor="yellow";
+     surface1.shapeColor="blue";
      surface2.shapeColor="blue";
      surface3.shapeColor="green";
      surface4.shapeColor="red";
