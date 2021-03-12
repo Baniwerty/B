@@ -14,10 +14,10 @@ function setup(){
     surface2=createSprite(345,570,200,50);
     surface3=createSprite(570,570,200,50);
     surface4=createSprite(795,570,200,50);
-     surface1.shapeColor="red";
+     surface1.shapeColor="yellow";
      surface2.shapeColor="blue";
      surface3.shapeColor="green";
-     surface4.shapeColor="yellow";
+     surface4.shapeColor="red";
     //create box sprite and give velocity
    box=createSprite(random(20,750),100,50,50);
    box.velocityX=6;
@@ -48,4 +48,5 @@ function draw() {
     }else if (surface4.isTouching(box)&& box.bounceOff(surface4)){
         box.shapeColor=surface4.shapeColor;
     }
+    
 }
